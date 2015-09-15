@@ -7,23 +7,20 @@ using System.Threading.Tasks;
 
 namespace KB4.Ashirov.Store.Domain.Model
 {
-    public class Computer: BaseModel
-
+   public class Product: BaseModel
     {
+            
         //Наименования компьютера (системного блока)
-        public string ComputerName { get; set; }
+        public string ProductName { get; set; }
         //Модель и часть описания компьютера
-        public string ComputerModel { get; set; }
+        public string ProductModel { get; set; }
+        public string ProductDescription { get; set; }
+
         //Дата выпуска системного блока и его комплектующих
         public DateTime DateOfCreate { get; set; }
 
-        List<Product> Components { get; set; }
 
-
-
-
-        Role Role { get; set; }
-
+    
 
     }
 }

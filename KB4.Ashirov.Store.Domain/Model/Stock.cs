@@ -13,5 +13,7 @@ namespace KB4.Ashirov.Store.Domain.Model
         public string Name { get; set; }
         //выбор услуги
         public StockType Type { get; set; }
+
+        List<Service> Services { get; set; }
     }
 }

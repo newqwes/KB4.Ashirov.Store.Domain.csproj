@@ -41,8 +41,8 @@
   <ItemGroup>
     <Compile Include="Model\Common\BaseModel.cs" />
     <Compile Include="Model\Computer.cs" />
-    <Compile Include="Model\Monitor.cs" />
     <Compile Include="Model\Periphery.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Role.cs" />
     <Compile Include="Model\Service.cs" />
     <Compile Include="Model\Stock.cs" />
